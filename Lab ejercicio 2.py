@@ -5,8 +5,8 @@ def sumaDigitos(numero):
             suma=suma+digito
             numero=numero//10
         return suma
-num=int(input("Numero a procesar, si quiere finalizar ingrese el numero 0: "))
+num=int(input("Número a procesar, sí quiere finalizar ingrese el numero 0: "))
 while num!=0:
     print("Suma: ", sumaDigitos(num))
-    num=int(input("Numero a procesar, si quiere finaizar ingrese el numero 0: "))
-print("El proceso a finaliza")
+    num=int(input("Número a procesar, sí quiere finaizar ingrese el numero 0: "))
+print("El proceso a finalizado")
